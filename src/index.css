@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root { font-family: Inter, 'Noto Sans Arabic', sans-serif; color: #172033; background: #f5f7fb; font-synthesis: none; }
+  .dark { color-scheme: dark; }
+  * { border-color: #e5eaf2; }
+  .dark * { border-color: #273449; }
+  body { margin: 0; min-width: 320px; min-height: 100vh; }
+  button, input, select { font: inherit; }
+}
